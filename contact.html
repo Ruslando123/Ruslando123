@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src="./script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img src="assets/logo.png" width="60px" alt="logo">
+                </div>
+                <nav class="header__nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="family.html">Family</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="hobbies.html">Hobbies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__burger">
+                <img src="assets/burger.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__wrapper">
+                <div class="contact__content">
+                    <div class="contact__title">
+                        Contact Me
+                    </div>
+                    <div class="contact__text">
+                        If you want to get in touch with me, you
+                    </div>
+                    <div class="contact__info">
+                        <p><strong>Phone:</strong> 8777 362 2005</p>
+                        <p>Email: <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTMXPWQBgPthFBdwwjhxMlpgSGtrvjChzwzKMFWqZDSwHbnMnQzspnVBVzvHmRmtJxQQCg">230107069@sdu.edu.kz</a></p>
+                        <div class="inst">
+                            <img src="/assets/inst.png" >
+                            <p>Inst: <a href="https://www.instagram.com/bakytuly05/">@bakytuly05</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__form">
+                    <form class="contact-form" action="/submit-form" method="POST">
+                        <div class="form-row">
+                            <input type="text" id="first-name" name="first-name" placeholder="First Name *" required>
+                            <input type="text" id="last-name" name="last-name" placeholder="Last Name *" required>
+                        </div>
+            
+                        <input type="email" id="email" name="email" placeholder="Email *" required>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                        <textarea id="message" name="message" placeholder="Message" rows="5"></textarea>
+            
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="family.html">Family</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="hobbies.html">Hobbies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                </div>
+                <div class="footer__text">
+                    <p>Contact:</p>
+                    <p>Email: <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTMXPWQBgPthFBdwwjhxMlpgSGtrvjChzwzKMFWqZDSwHbnMnQzspnVBVzvHmRmtJxQQCg">230107069@sdu.edu.kz</a></p>
+                    <p>Inst: <a href="https://www.instagram.com/bakytuly05/">@bakytuly05</a></p>
+                    <p>Calls: +7 777 362 2005</p>
+                </div>
+                <div class="footer__logo">
+                    <div class="footer__logo-text">
+                        <p>&copy; 2021, Notitanic</p>
+                    </div>
+                    <div class="footer_arrow">
+                        <a href="#top" class="back-to-top">
+                            <img src="/assets/up-arrow.png" alt="Back to top">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+</body>
+</html>
